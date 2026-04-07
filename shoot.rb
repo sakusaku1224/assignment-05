@@ -101,7 +101,7 @@ def acchi_muite_hoi(janken_result)
     else
       puts "あなたの負けです..."
     end
-      true
+      return true
   else
     puts "セーフ！もう一度じゃんけんから"
     return false  
