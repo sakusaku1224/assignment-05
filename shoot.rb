@@ -99,7 +99,7 @@ def acchi_muite_hoi(janken_result)
     if janken_result == :win
       puts "あなたの勝ちです！"
     else
-      puts "相手の勝ちです！"
+      puts "あなたの負けです..."
     end
       true
   else
